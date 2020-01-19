@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Expansion Hub Portal 1" serialNumber="DQ2F5KRN" parentModuleAddress="2">
+        <LynxModule name="Expansion Hub 2" port="2">
+            <NeveRest40Gearmotor name="extensionRetractionMotorLeft" port="0" />
+            <NeveRest40Gearmotor name="extensionRetractionMotorRight" port="1" />
+            <NeveRest40Gearmotor name="extensionRetractionMotorArm" port="2" />
+            <DigitalDevice name="retractionLimitSwitchRight" port="0" />
+            <DigitalDevice name="extensionLimitSwitchRight" port="1" />
+            <DigitalDevice name="retractionLimitSwitchLeft" port="2" />
+            <DigitalDevice name="extensionLimitSwitchLeft" port="3" />
+            <DigitalDevice name="extensionLimitSwitchArm" port="5" />
+            <DigitalDevice name="retractionLimitSwitchArm" port="7" />
+            <LynxEmbeddedIMU name="imu" port="0" bus="0" />
+        </LynxModule>
+    </LynxUsbDevice>
+</Robot>
