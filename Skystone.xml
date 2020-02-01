@@ -6,6 +6,7 @@
             <NeveRest20Gearmotor name="BackRight" port="1" />
             <NeveRest40Gearmotor name="liftMotorRight" port="2" />
             <NeveRest40Gearmotor name="intakeMotorRight" port="3" />
+            <Servo name="intakeServoRight" port="0" />
             <DigitalDevice name="retractionLimitSwitchLiftRight" port="0" />
             <DigitalDevice name="extensionLimitSwitchLiftRight" port="1" />
             <LynxEmbeddedIMU name="IMU" port="0" bus="0" />
@@ -15,6 +16,7 @@
             <NeveRest40Gearmotor name="liftMotorLeft" port="1" />
             <NeveRest20Gearmotor name="FrontLeft" port="2" />
             <NeveRest20Gearmotor name="BackLeft" port="3" />
+            <Servo name="intakeServoLeft" port="0" />
             <DigitalDevice name="retractionLimitSwitchLiftLeft" port="0" />
             <DigitalDevice name="extensionLimitSwitchLiftLeft" port="1" />
             <LynxEmbeddedIMU name="imu 1" port="0" bus="0" />
