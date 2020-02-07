@@ -18,13 +18,5 @@
             <DigitalDevice name="LiftExtensionLimitSwitchLeft" port="3" />
             <LynxEmbeddedIMU name="IMU" port="0" bus="0" />
         </LynxModule>
-        <LynxModule name="Expansion Hub 2" port="2">
-            <NeveRest20Gearmotor name="BackRight" port="0" />
-            <NeveRest20Gearmotor name="FrontRight" port="1" />
-            <NeveRest20Gearmotor name="FrontLeft" port="2" />
-            <NeveRest20Gearmotor name="BackLeft" port="3" />
-            <Servo name="BaseMoverLeft" port="0" />
-            <LynxEmbeddedIMU name="IMU_2000" port="0" bus="0" />
-        </LynxModule>
     </LynxUsbDevice>
 </Robot>
