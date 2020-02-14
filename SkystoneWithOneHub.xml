@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <Robot type="FirstInspires-FTC">
-    <LynxUsbDevice name="Expansion Hub Portal 1" serialNumber="DQ2GMS4H" parentModuleAddress="1">
-        <LynxModule name="Expansion Hub 1" port="1">
+    <LynxUsbDevice name="Expansion Hub Portal 1" serialNumber="DQ2E1YT4" parentModuleAddress="1">
+         <LynxModule name="Expansion Hub 1" port="1">
             <NeveRest40Gearmotor name="LiftMotorLeft" port="0" />
-            <NeveRest40Gearmotor name="intakeMotorRight" port="1" />
-			<NeveRest40Gearmotor name="intakeMotorLeft" port="2" />
+            <NeveRest40Gearmotor name="IntakeMotorRight" port="1" />
+			<NeveRest40Gearmotor name="IntakeMotorLeft" port="2" />
 			 <NeveRest40Gearmotor name="LiftMotorRight" port="3" />
-            <ContinuousRotationServo name="ExtensionArmServoMotor" port="0" />
-            <Servo name="gripper" port="1" />
-            <Servo name="intakePusherRight" port="2" />
-            <Servo name="intakePusherLeft" port="3" />
-            <Servo name="gripperRotator" port="4" />
-            <Servo name="BaseMoverRight" port="5" />
+            <Servo name="ExtensionArmServoMotor" port="0" />
+            <Servo name="Gripper" port="1" />
+            <Servo name="GripperRotator" port="4" />
+            <Servo name="FoundationGrabberRight" port="5" />
             <DigitalDevice name="LiftRetractionLimitSwitchRight" port="0" />
             <DigitalDevice name="LiftExtensionLimitSwitchRight" port="1" />
 			<DigitalDevice name="LiftRetractionLimitSwitchLeft" port="2" />
             <DigitalDevice name="LiftExtensionLimitSwitchLeft" port="3" />
+			<DigitalDevice name="RetractionLimitSwitchArm" port="4" />
+            <DigitalDevice name="ExtensionLimitSwitchArm" port="5" />
             <LynxEmbeddedIMU name="IMU" port="0" bus="0" />
         </LynxModule>
     </LynxUsbDevice>
