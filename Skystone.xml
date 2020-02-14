@@ -13,8 +13,8 @@
 			<DigitalDevice name="LiftRetractionLimitSwitchLeft" port="2" />
             <DigitalDevice name="LiftExtensionLimitSwitchLeft" port="3" />
             <DigitalDevice name="ExtensionLimitSwitchArm" port="5" />
-			<DigitalDevice name="IntakeSwitchBackRight" port="6" />
-			<DigitalDevice name="IntakeSwitchBackLeft" port="7" />
+			<DigitalDevice name="IntakeSwitchBackLeft" port="6" />
+			<DigitalDevice name="IntakeSwitchBackRight" port="7" />
             <LynxEmbeddedIMU name="IMU" port="0" bus="0" />
         </LynxModule>
 		<LynxModule name="Expansion Hub 2" port="2">
@@ -26,7 +26,8 @@
 			<Servo name="Gripper" port="1" />
 			<Servo name="FoundationGrabberLeft" port="5" />
 			<DigitalDevice name="RetractionLimitSwitchArm" port="1" />
-			<DigitalDevice name="IntakeSwitchFront" port="2" />
+			<DigitalDevice name="IntakeSwitchFrontLeft" port="2" />
+			<DigitalDevice name="IntakeSwitchFrontRight" port="3" />
             <LynxEmbeddedIMU name="IMU_2000" port="0" bus="0" />
         </LynxModule>
     </LynxUsbDevice>
